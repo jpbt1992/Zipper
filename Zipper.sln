@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppZipper", "ConsoleAppZipper\ConsoleAppZipper.csproj", "{F720529E-D0D7-486F-B091-5C796C14B864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProjectZipper", "TestProjectZipper\TestProjectZipper.csproj", "{D525F17E-F668-4197-928E-ED43034E2AB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F720529E-D0D7-486F-B091-5C796C14B864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F720529E-D0D7-486F-B091-5C796C14B864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F720529E-D0D7-486F-B091-5C796C14B864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F720529E-D0D7-486F-B091-5C796C14B864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D525F17E-F668-4197-928E-ED43034E2AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D525F17E-F668-4197-928E-ED43034E2AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D525F17E-F668-4197-928E-ED43034E2AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D525F17E-F668-4197-928E-ED43034E2AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C00C0E5-7DAF-4BDD-99C2-722AAAD7CFB2}
+	EndGlobalSection
+EndGlobal

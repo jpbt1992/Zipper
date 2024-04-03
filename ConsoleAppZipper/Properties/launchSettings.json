@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleAppZipper": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\jpbta\\Desktop\\temp\r\nfinal.zip\r\n.bin\r\ngit\r\nfile2\r\nlocalfile\r\nC:\\Users\\jpbta\\Desktop"
+    }
+  }
+}
