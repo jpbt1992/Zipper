@@ -6,7 +6,7 @@ para uma fileshare ou enviado como anexo por Email (SMTP).
 Desenvolver o programa usando as melhores práticas de POO e SOLID, bem como respetivos testes
 unitários e de integração.
 
-Requisito #1
+## Requisito #1
 O utilizador pode invocar a aplicação via linha de comandos passando como argumentos:
 - a pasta a zipar (e.g. C:\\temp)
 - o nome final do ficheiro zip (e.g. final.zip)
