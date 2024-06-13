@@ -1,29 +1,27 @@
 # Zipper
-Aplicação em linha de comandos que consegue criar um zip de uma pasta e respetivas sub-pastas, excluindo determinadas extensões, pastas ou nomes de ficheiros.
+Command line application that can create a zip of a folder and its subfolders, excluding certain extensions, folders, or file names.
 
-O programa também permite que o ficheiro output possa ser gerado para uma pasta local, copiado
-para uma fileshare ou enviado como anexo por Email (SMTP).
-Desenvolver o programa usando as melhores práticas de POO e SOLID, bem como respetivos testes
-unitários e de integração.
+The program also allows the output file to be generated to a local folder, copied to a file share, or sent as an attachment via Email (SMTP).
+Develop the program using OOP and SOLID best practices and respective unit and integration tests.
 
-## Requisito #1
-O utilizador pode invocar a aplicação via linha de comandos passando como argumentos:
-- a pasta a zipar (e.g. C:\\temp)
-- o nome final do ficheiro zip (e.g. final.zip)
-- uma lista de extensões a excluir (e.g. .bmp, .jpg, .txt)
-- uma lista de diretórios a excluir (e.g. git, diretório)
-- uma lista de ficheiros a excluir (e.g. ficheiro1, filcheiro2)
-- tipo de output (e.g. localFile, filesShare, SMTP)
-- parâmetros opcionais de acordo com o tipo de output (e.g. path do fileshare)
+## Requirement #1
+The user can invoke the application via the command line by passing the following arguments:
+- the folder to zip (e.g. C:\\temp)
+- the final name of the zip file (e.g. final.zip)
+- a list of extensions to exclude (e.g. .bmp, .jpg, .txt)
+- a list of directories to exclude (e.g. git, directory)
+- a list of files to exclude (e.g. file1, file2)
+- output type (e.g. localFile, filesShare, SMTP)
+- optional parameters according to the type of output (e.g. fileshare path)
   
-## Requisito #2
-Todos os ficheiros e pastas devem ser incluídos no ficheiro de output num ficheiro ZIP.
+## Requirement #2
+All files and folders must be included in the output file in a ZIP file.
 
-## Requisito #3
-Criar um design de “outputs” em que seja fácil desenvolver no futuro novos outputs.
+## Requirement #3
+Create an “outputs” design in which it is easy to develop new outputs in the future.
 
-## Requisito #4
-Desenvolver testes unitários para o código atingindo o máximo de cobertura possível.
+## Requirement #4
+Develop unit tests for the code, achieving as much coverage as possible.
 
-## Requisito #5
-A aplicação pode ser tanto executada em .NET Core 3.1 como em .NET Framework 4.8
+## Requirement #5
+The application can be run on either .NET Core 3.1 or .NET Framework 4.8.
